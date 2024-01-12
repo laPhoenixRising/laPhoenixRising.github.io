@@ -1,5 +1,10 @@
-body { background-color: black; }
-h1 { color: blue; }
+body { background-color: ivory }
+h1 { 
+    text-align: center; 
+    color: blue; 
+    font-family: fantasy; 
+}
 .link { color: crimson; }
 .interessi { color: darkorange; }
 .citazioni { color: blueviolet; }
+
