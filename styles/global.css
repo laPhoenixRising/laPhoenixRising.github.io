@@ -8,12 +8,21 @@ h1 {
     color: blue; 
     font-family: fantasy; 
 }
-h2 { font-family: PermanentMarker; }
+h2 { font-family: PermanentMarker; }    
 #link, #link a { color: crimson; }
+ul, h2, #citazioni p { 
+    border: solid; 
+    border-radius: 10px;
+    height: auto; 
+    width: 200px;
+    text-align: center;
+}
 #interessi { color: darkorange; }
 #citazioni { color: blueviolet; }
 #avatar img { 
     height: auto; 
     width: 200px;
+    border: 5px solid blue;
+    padding: 0.5em;
 }
 #avatar { text-align: center; }
