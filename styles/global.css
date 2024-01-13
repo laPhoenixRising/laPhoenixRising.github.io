@@ -1,9 +1,14 @@
+@font-face {
+    font-family: PermanentMarker;
+    src: url(../fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
+}
 body { background-color: ivory }
 h1 { 
     text-align: center; 
     color: blue; 
     font-family: fantasy; 
 }
+h2 { font-family: PermanentMarker; }
 #link, #link a { color: crimson; }
 #interessi { color: darkorange; }
 #citazioni { color: blueviolet; }
