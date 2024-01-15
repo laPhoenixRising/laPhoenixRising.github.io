@@ -6,12 +6,19 @@ body { background-color: black }
 h1 { 
     text-align: center; 
     color: #3A86FF; 
-    font-family: fantasy; 
+    font-family: fantasy;
+    font-size: 2em; 
 }
-h2 { font-family: PermanentMarker; }
+h2 {
+     font-family: PermanentMarker; 
+     font-size: 1.5em;
+    }
 li { list-style: none; }
 #link, #link a { color: #FF006E; }
-ul, #citazioni p { padding: 1em 0.5em; }
+ul, #citazioni p { 
+    padding: 1em 0.5em; 
+    font-size: 15px;
+}
 ul, h2, #citazioni p { 
     border: solid; 
     border-radius: 10px;
