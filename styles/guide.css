@@ -1,0 +1,36 @@
+@font-face {
+    font-family: PermanentMarker;
+    src: url(../fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+#palette img { 
+    height: 150px; 
+    width: 150px;   
+}
+.palette {
+    border: solid;
+    padding: 1em;
+    background-color: black;
+    display: inline-block;
+}
+#font img {
+    height: auto;
+    width: 300px;
+    border: solid;
+}
+.fantasy { font-size: 15px; }
+.fantasyusername { font-size: 2em;}
+.fantasy, .fantasyusername { 
+    font-family: fantasy; 
+    border: solid;
+    text-align: center;
+    padding: 0.5em;
+    display: inline-block;
+}
+.permanentmarker { 
+    font-family: PermanentMarker; 
+    font-size: 1.5em;
+    border: solid;
+    text-align: center;
+    padding: 0.5em;
+    display: inline-block;
+}
