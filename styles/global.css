@@ -14,7 +14,9 @@ h2 {
      font-size: 1.5em;
     }
 li { list-style: none; }
-#link, #link a { color: #FF006E; }
+#link, #link a { 
+    color: #FF006E;
+}
 ul, #citazioni p { 
     padding: 1em 0.5em; 
     font-size: 15px;
@@ -26,14 +28,27 @@ ul, h2, #citazioni p {
     width: 200px;
     text-align: center;
 }
-#link a { font-family: fantasy; }
+#link {
+    position: relative;
+    top: -200px;
+    left: 200px;
+}
+#link a { 
+    font-family: fantasy;
+ }
 #interessi { 
     color: #FB5607;
     font-family: fantasy;
+    position: relative;
+    top: 50px;
+    left: 200px;
 }
 #citazioni { 
     color: #af89e5;
     font-family: fantasy;
+    position: relative;
+    top: -500px;
+    left: 900px;
 }
 #avatar img { 
     height: auto; 
@@ -41,5 +56,8 @@ ul, h2, #citazioni p {
     border: 5px solid #3A86FF;
     border-radius: 10px;
     padding: 0.5em;
+    position: relative;
+    top: 200px;
+    left: 10px;
 }
 #avatar { text-align: center; }
