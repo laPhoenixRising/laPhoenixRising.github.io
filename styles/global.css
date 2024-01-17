@@ -7,7 +7,9 @@ h1 {
     text-align: center; 
     color: #3A86FF; 
     font-family: fantasy;
-    font-size: 2em; 
+    font-size: 2em;
+    position: absolute;
+    left: 525px;
 }
 h2 {
      font-family: PermanentMarker; 
@@ -29,8 +31,8 @@ ul, h2, #citazioni p {
     text-align: center;
 }
 #link {
-    position: relative;
-    top: -200px;
+    position: absolute;
+    top: 150px;
     left: 200px;
 }
 #link a { 
@@ -39,15 +41,15 @@ ul, h2, #citazioni p {
 #interessi { 
     color: #FB5607;
     font-family: fantasy;
-    position: relative;
-    top: 50px;
+    position: absolute;
+    top: 500px;
     left: 200px;
 }
 #citazioni { 
     color: #af89e5;
     font-family: fantasy;
-    position: relative;
-    top: -500px;
+    position: absolute;
+    top: 300px;
     left: 900px;
 }
 #avatar img { 
@@ -56,8 +58,8 @@ ul, h2, #citazioni p {
     border: 5px solid #3A86FF;
     border-radius: 10px;
     padding: 0.5em;
-    position: relative;
+    position: absolute;
     top: 200px;
-    left: 10px;
+    left: 525px;
 }
 #avatar { text-align: center; }
