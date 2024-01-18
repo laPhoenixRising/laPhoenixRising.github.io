@@ -63,3 +63,12 @@ ul, h2, #citazioni p {
     left: 525px;
 }
 #avatar { text-align: center; }
+
+@media (max-width: 700px) {
+    #link, h1, #avatar img, #interessi, #citazioni  {
+      position: static;
+    }
+    #link h2, #link ul, #interessi h2, #interessi ul, #citazioni h2, #citazioni p {
+      margin: 1em auto;
+    }
+}
