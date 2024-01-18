@@ -20,7 +20,7 @@ Al passaggio del mouse il blocco citazioni esploderà in altri blocchi che avran
 
 ## LAYOUT RESPONSIVE
 
-Nella versione mobile il layout sarà in colonna. Al passaggio del mouse i vari titoli si espanderanno verso il basso. La dimensione è fino a 400px.
+Nella versione mobile il layout sarà in colonna. Al passaggio del mouse i vari titoli si espanderanno verso il basso. La dimensione è fino a 700px.
 
 ![image](https://github.com/laPhoenixRising/laPhoenixRising.github.io/assets/56075917/8b3c7fa3-5aea-4e96-a63b-77c48f802610)
 
