@@ -18,5 +18,12 @@ Al passaggio del mouse il blocco citazioni esploderà in altri blocchi che avran
 
 ![image](https://github.com/laPhoenixRising/homepage/assets/56075917/b1ac9a6f-fb6c-4cc8-aac2-1a784bce1b5b)
 
+## LAYOUT RESPONSIVE
+
+Nella versione mobile il layout sarà in colonna. Al passaggio del mouse i vari titoli si espanderanno verso il basso.
+
+![image](https://github.com/laPhoenixRising/laPhoenixRising.github.io/assets/56075917/ae945688-e08a-409e-8396-6693293807ca)
+
+
 
 
