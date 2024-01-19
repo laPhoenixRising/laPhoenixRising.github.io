@@ -3,13 +3,13 @@
     src: url(../fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
 }
 body { background-color: black }
-h1 { 
+#username { 
     text-align: center; 
     color: #3A86FF; 
     font-family: fantasy;
     font-size: 2em;
 }
-h2 {
+.titolo-blocco {
      font-family: PermanentMarker; 
      font-size: 1.5em;
     }
@@ -17,11 +17,11 @@ li { list-style: none; }
 #link, #link a { 
     color: #FF006E;
 }
-ul, #citazioni p { 
+.lista, #citazioni p { 
     padding: 1em 0.5em; 
     font-size: 15px;
 }
-ul, h2, #citazioni p { 
+.lista, .titolo-blocco, #citazioni p { 
     border: solid; 
     border-radius: 10px;
     height: auto; 
@@ -49,7 +49,7 @@ ul, h2, #citazioni p {
 #avatar { text-align: center; }
 
 @media (max-width: 700px) {
-    #link h2, #link ul, #interessi h2, #interessi ul, #citazioni h2, #citazioni p {
+    .titolo-blocco, .lista, #citazioni p {
       margin: 1em auto;
     }
 }
@@ -74,7 +74,7 @@ ul, h2, #citazioni p {
         top: 150px;
         left: 200px;
     }
-    h1 {
+    #username {
         position: absolute;
         left: 525px;
     }
