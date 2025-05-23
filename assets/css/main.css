@@ -1628,8 +1628,6 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			margin-left: 460px;
-			margin-top: 100px;
 			width: 100%;
 		}
 
@@ -2075,15 +2073,12 @@ input, select, textarea {
 	}
 
 	#top {
-		padding: 3em 0 12em 0;
+		padding: 3em 0 5em 0;
 		text-align: left;
 	}
 
 		#top .image {
 			border-radius: 100%;
-			width: 20em;
-			height: 20em;
-			margin: 0;
 		}
 
 			#top .image img {
